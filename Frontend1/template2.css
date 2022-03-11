@@ -1,0 +1,20 @@
+.row1,.row2 {
+    align-items: center;
+flex-direction: column;
+}
+
+nav {
+    flex-direction: column;
+}
+#About div,#About p{
+    padding-top: 2%;
+    font-size:larger;
+}
+.col3 img {
+  width:300px;
+  height: 200px;
+}
+button {
+    width:31%;
+    padding-left: 1%;
+}
