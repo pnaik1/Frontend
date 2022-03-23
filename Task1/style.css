@@ -1,0 +1,141 @@
+*{ 
+    background-color:#272727 ;
+    margin: 0 0;
+}
+nav{
+  font-size: xx-large;
+font-family: 'Pacifico' ,cursive;
+color:goldenrod;
+padding: 1.5%;
+margin-bottom: 10px;;
+}
+.carousel {
+  position:relative;
+  height: 700px;
+   width:80%;
+   margin: 0 auto;
+}
+.carousel_slide img ,video{
+  border-radius: 5px;;
+
+width: 2400px;
+height: 600px;
+object-fit:fill;
+transition: 2.5s ease-in;
+}
+.slider{
+  padding: 0;
+  margin:0;
+  list-style: none;
+ 
+}
+.carousel_slide{
+  width: 100%;
+
+  margin: 0 auto;
+  height:90%;
+  overflow:hidden;
+ position: absolute;
+display: none;
+}
+#prev ,#next {
+  position: absolute;
+  top:50%;
+  transform:translateY(-50%);
+  background-color:black;
+  border:1px goldenrod solid;
+  color:goldenrod;
+  padding: 1%;
+  cursor: pointer;
+ 
+ 
+
+border-radius: 5px;
+}
+#prev{
+  left:-20px;
+  border-radius: 50%;
+  transition: 1s;
+}
+#next{
+right: -20px;
+border-radius: 50%;
+}
+.carousel_nav{
+  position: absolute;
+  bottom:10%;
+  left:50%;
+background-color:transparent;
+
+}
+.carousel_indicator{
+ cursor: pointer;
+ border:0;
+
+  background-color:black;
+  border:1px goldenrod solid;
+  border-radius: 50%;
+  width:15px;
+  height: 15px;
+ margin-right: 10px;
+  
+}
+.current-carousel{
+  display: block;
+}
+.current_slide{
+background:goldenrod;
+}
+.current-carousel-hidden{
+  display: none;
+}
+#prev:hover{
+  opacity: 0.5;
+}
+.product-container{
+  display: flex;
+  justify-content:space-around;
+}
+.product-card{
+  width:200px;
+  height:300px;
+  margin: auto;
+  display: none;
+}
+h2{
+  
+text-align:center ;
+color: goldenrod;
+padding:3%;
+font-size: xx-large;
+}
+.product-card img{
+ width:200px;
+ height:300px;
+ 
+}
+#right ,#left{
+ 
+
+
+  transform:translateY(-50%);
+  background-color:black;
+  border:1px goldenrod solid;
+  color:goldenrod;
+  padding: 1%;
+  cursor: pointer;
+}
+.button{
+   margin:2%;
+   margin-left: 3.5%;
+}
+#Product{
+  position:relative;
+  height: 700px;
+   width:80%;
+   margin: 0 auto; 
+}
+#right:hover,#left:hover {
+  background: grey;
+
+}

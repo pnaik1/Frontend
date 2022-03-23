@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/754c3fb678.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body onload="show()">
+
+    <nav>
+        Jewellery
+    </nav>
+    <div class="carousel">
+      
+   
+      <ul class="slider">
+        <li class="carousel_slide current-carousel"  >
+        <video  autoplay muted loop >
+            <source src="./video/videoplayback.mp4">
+        </video>
+        </li>
+      <li class="carousel_slide">
+          <img src="./images/Banner-1.jpg" width="100%" height="600">
+      </li>
+      <li class="carousel_slide">
+          <img src="./images/20190903_125411.jpg">
+        </li>
+        <li class="carousel_slide">
+          <img src="./images/Tips-for-buying-wedding-Bridal-jewellery.jpg">
+        </li>
+      </ul>
+   
+        <i id="prev" onclick="show_image(-1)" class="fa-solid fa-chevron-left carousel_button--left"></i>
+       <i id="next" onclick="show_image(-1)" class="fa-solid fa-chevron-right carousel_button--right"></i>
+        <div class="carousel_nav">
+          <button class="carousel_indicator current_slide"></button>
+          <button class="carousel_indicator"></button>
+          <button class="carousel_indicator"></button>
+          <button class="carousel_indicator"></button>
+        </div>      
+    </div>
+   <section id="Product">
+      <h2 class="product_category">DEAL OF THE DAY</h2>
+      <div class="product-container">
+        
+        
+       <div  id="c1" class="product-card ">
+        <img src="./images/beautiful-temple-jewelry-inspired-mangalsutra-set-psbom20444-ms-20180604-21998-1q8st0n.jpg">
+       </div>
+       <div   id="c2"class="product-card c2">
+        <img src="./images/images (2).jpeg">
+       </div>
+       <div  id="c3"class="product-card c3">
+        <img src="./images/images.jpeg">
+       </div>
+       <div  id="c4"class="product-card c4">
+        <img src="./images/N-Di-438-1-495x400.jpg">
+       </div>
+       <div  id="c5"class="product-card c5">
+        <img src="./images/photo-1630918489407-6c09286efe2a.jpeg">
+       </div>
+       <div  id="c6"class="product-card c6">
+        <img src="./images/beautiful-temple-jewelry-inspired-mangalsutra-set-psbom20444-ms-20180604-21998-1q8st0n.jpg">
+       </div>
+      </div>
+      <div class="button">
+       <i  id="right" onclick="goright()"  class="fa-solid fa-1 "></i>
+       <i id="left" onclick="goleft()"  class="fa-solid fa-2 "></i>
+      </div>
+    </section>
+    <script src="./index.js"> </script>
+</body>
+</html>
