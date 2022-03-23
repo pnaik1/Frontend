@@ -62,9 +62,10 @@ for(let i=0;i<4;i++){
     })   
     
 }
+
+
 let left=1;
 let right=5;
-
 
 function show(){
     for(let i=left;i<=right;i++){
@@ -101,4 +102,3 @@ else
 return;
   }
 
-  
