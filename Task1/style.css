@@ -65,6 +65,7 @@ border-radius: 50%;
   position: absolute;
   bottom:10%;
   left:50%;
+  transform:translateX(-50%);
 background-color:transparent;
 
 }
@@ -128,6 +129,7 @@ font-size: xx-large;
 .button{
    margin:2%;
    margin-left: 3.5%;
+
 }
 #Product{
   position:relative;
@@ -138,4 +140,22 @@ font-size: xx-large;
 #right:hover,#left:hover {
   background: grey;
 
+}
+
+
+@media only screen and (max-width:1000px){
+  .button{
+
+  }
+   .product-card{
+    width:80%;
+    height: 200px;
+   }
+  .product-card img{
+    width:80%;
+    height: 200px;
+  }
+  #right ,#left{
+    margin-top:1%;
+  }
 }
